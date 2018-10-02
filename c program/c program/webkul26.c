@@ -1,16 +1,17 @@
 #include<stdio.h>
 void main(){
-	int i,j,k;
-	for(i=1;i<=5;i++)
+	int i,j,k,l=1;
+	for(i=0;i<=5;i++)
 	{
-		for(j=1;j<=5-i;j++)
+		for(j=0;j<=5-i;j++)
 		{
 			printf(" ");
 		}
-	   k=1;
+	   k=0;
 	   while(k!=(2*i)+1){
-	   	printf("%d",k);
+	   	printf("%d",l++);
 	   	k++;
+	   	
 	   }
 	   printf("\n");
 	}
